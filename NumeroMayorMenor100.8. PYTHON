@@ -1,0 +1,23 @@
+Algoritmo NumeroMayorMenor100
+	
+	// Entradas:
+	// Numero Mayor menor de 100
+	
+	// Salidas :
+	// El numero cumple la condicion
+	// El numero no cumple la condicion
+	
+	//Proceso:
+	// Ingrese un numero
+	Definir numero Como Entero
+	
+	Escribir "Ingrese un número:"
+	Leer numero
+	
+	Si numero > 100 O numero < -100 Entonces
+		Escribir "El número cumple la condición."
+	SiNo
+		Escribir "El número NO cumple la condición."
+	FinSi
+	
+FinAlgoritmo

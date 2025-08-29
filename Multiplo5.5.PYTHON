@@ -1,0 +1,21 @@
+Algoritmo  Multiplo5
+	
+	// Entradas:
+	// Multiplo de 5
+	
+	// Salidas :
+	// Es multiplo de 5
+	// No esmultiplo de 5
+	
+	//Proceso:
+	// Ingrese un numero
+	
+  Definir num Como Entero		
+  Escribir "Ingrese un número:"
+  Leer num
+  Si num MOD 5 = 0 Entonces
+  Escribir num, " es múltiplo de 5."
+SiNo
+  Escribir num, " no es múltiplo de 5."
+FinSi	
+FinAlgoritmo

@@ -1,0 +1,21 @@
+Algoritmo YearBisiesto
+	
+	// Entradas:
+	// Year Bisiesto
+	
+	// Salidas :
+	// El Year es bisisesto
+	// El Year no es bisiesto
+	
+	//Proceso:
+	// Ingrese un Year
+	Definir Year Como Entero
+	Escribir "Ingrese un Year:"
+	Leer Year
+	SI (Year MOD 4 = 0 Y anio MOD 100 <> 0) O (Year MOD 400 = 0) ENTONCES
+		Escribir "El Year es bisiesto"
+	SINO
+		Escribir "El Year no es bisiesto"
+	FINSI
+	
+FinAlgoritmo
